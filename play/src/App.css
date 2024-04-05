@@ -1,0 +1,53 @@
+/* App.css */
+.quiz {
+    margin-top:400px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:dimgrey;
+    text-decoration-color:red;
+    color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.answer-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .results h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .results p {
+        font-size: 18px;
+    }
